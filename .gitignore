@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights — fetch with download_weights.sh (too large for git)
+*.pth
+output_training/
+pretrained_model/
+
+# Generated at runtime
+inference_results/
+.torch_hub/
+
+# Dataset content — keep only the folder structure (.gitkeep); see data/README.md
+data/**/*.nii.gz
+data/**/img/
+data/**/mask/
+data/**/*_cache.npy
+*_pass1_cache.npz
+*_pass1_embs.npy
+
+# Logs / SLURM output
+*.out
+slurm-*.out
+trainer_dinov2_*.txt

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Large model weights — distributed via Google Drive (see stage2/download_weights.sh)
+*.pth
+
+# Training-only pretrained inits (not needed for inference)
+pretrained_model/
+
+# torch.hub cache (DINOv2 backbone)
+.torch_hub/
+
+# Inference outputs & Pass-1 caches
+inference_results/**/pred_*.nii.gz
+inference_results/**/*_pred.nii.gz
+inference_results/**/*.npy
+inference_results/**/_pass1_cache.npz
+
+# stray training logs
+slurm-*.out
+trainer_dinov2_*.txt
