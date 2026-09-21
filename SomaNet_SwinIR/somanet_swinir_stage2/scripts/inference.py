@@ -71,7 +71,7 @@ class Inference:
             self._shift_ranges[s] = (idx * d, (idx + 1) * d)
 
     # ------------------------------------------------------------------
-    # Model helpers (unchanged)
+    # Model helpers
     # ------------------------------------------------------------------
     def _get_model(self, model_module, model_name, in_channels, num_classes):
         module = importlib.import_module(model_module)
