@@ -106,11 +106,10 @@ If you find SomaNet useful, please ⭐ the repository and cite our paper:
 
 ```bibtex
 @article{khateri2026somanet,
-  title   = {SomaNet: Weakly Supervised Learning for Instance Soma Segmentation
-             in 3D Electron Microscopy with Partial Annotations},
-  author  = {Khateri, Mohammad and Ghahremani, Morteza and Tohka, Jussi and Sierra, Alejandra},
-  journal = {arXiv},
-  year    = {2026}
+  title={SomaNet: Weakly Supervised Learning for Instance Soma Segmentation in 3D Electron Microscopy with Partial Annotations},
+  author={Khateri, Mohammad and Ghahremani, Morteza and Tohka, Jussi and Sierra, Alejandra},
+  journal={arXiv preprint arXiv:2609.23019},
+  year={2026}
 }
 ```
 
